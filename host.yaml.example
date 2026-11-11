@@ -1,14 +1,14 @@
 version: 1
-installation: composer-example
+installation: gitsail-example
 source:
   mode: local
-  path: composer-example
+  path: gitsail-example
   branches:
     prod: master
     stage: dev
   poll_interval: 2s
-state_dir: composer-example-state
-age_key_file: composer-example.agekey
+state_dir: gitsail-example-state
+age_key_file: gitsail-example.agekey
 docker: {}
 reconcile:
   parallelism: 4

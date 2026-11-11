@@ -21,7 +21,7 @@ http {
     server {
         listen 8080;
         absolute_redirect {{ .Vars.app.absolute_redirect }};
-        add_header X-Composer-Environment {{ quote .Env }} always;
+        add_header X-GitSail-Environment {{ quote .Env }} always;
         add_header X-Config-Revision {{ quote .Vars.app.config_revision }} always;
 
         proxy_set_header Host $http_host;
