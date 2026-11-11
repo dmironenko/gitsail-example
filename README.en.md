@@ -1,6 +1,8 @@
-# GitSail example
+<p align="right">
+  <img align="left" src="https://hits.sh/github.com/dmironenko/gitsail-example.svg?style=flat&amp;label=views&amp;color=007ec6" alt="views" />
+</p>
 
-![views](https://hits.sh/github.com/dmironenko/gitsail-example.svg?style=flat&label=views&color=007ec6)
+# GitSail example
 
 A runnable GitOps repository for [GitSail](https://github.com/dmironenko/gitsail). It deploys an API built from source, a web app, and nginx with Certbot. Separate nginx instances route production and stage traffic; a shared ingress selects an environment by cookie.
 
